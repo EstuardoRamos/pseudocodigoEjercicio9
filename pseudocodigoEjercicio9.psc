@@ -1,4 +1,5 @@
 Algoritmo pseudocodigoEjercicio9
+	Definir  t1, t2 , PromedioT, promedioT1, promedioT2 Como Real
 	Hacer
 		Escribir "Ingrese la temperatura T1";
 		Leer t1;
@@ -7,12 +8,10 @@ Algoritmo pseudocodigoEjercicio9
 		Si 5<=t1 y t1<=15 
 			temp1=temp1+1
 			t1T=t1T+t1
-			Escribir "t1 15"
 		FinSi
 		Si 5<=t2 y t2<=15 Entonces
 			temp2=temp2+1
 			t2T=t2T+t2
-			Escribir "t2 15"
 		FinSi
 	Hasta Que t1=0;
 	promedioT1=t1T/temp1;
